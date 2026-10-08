@@ -1,0 +1,146 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="600"
+        height="600"
+        viewBox="0 0 600 600">
+
+        <defs>
+            <linearGradient
+                id="bg236"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="1">
+
+                <stop
+                    offset="0%"
+                    stop-color="#0284c7"
+                    stop-opacity="0.15"/>
+
+                <stop
+                    offset="100%"
+                    stop-color="#65a30d"
+                    stop-opacity="0.05"/>
+            </linearGradient>
+
+            <linearGradient
+                id="product236"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="1">
+
+                <stop
+                    offset="0%"
+                    stop-color="#0284c7"/>
+
+                <stop
+                    offset="100%"
+                    stop-color="#65a30d"/>
+            </linearGradient>
+
+            <filter
+                id="shadow236"
+                x="-50%"
+                y="-50%"
+                width="200%"
+                height="200%">
+
+                <feDropShadow
+                    dx="0"
+                    dy="18"
+                    stdDeviation="18"
+                    flood-opacity="0.18"/>
+            </filter>
+        </defs>
+
+        <!-- Background -->
+        <rect
+            width="600"
+            height="600"
+            fill="url(#bg236)"/>
+
+        <circle
+            cx="300"
+            cy="300"
+            r="210"
+            fill="#0284c7"
+            opacity="0.04"/>
+
+        <!-- Decorative circles -->
+        <circle
+            cx="88"
+            cy="122"
+            r="25"
+            fill="#0284c7"
+            opacity="0.10"/>
+
+        <circle
+            cx="545"
+            cy="539"
+            r="33"
+            fill="#65a30d"
+            opacity="0.10"/>
+
+        <!-- Product -->
+        <g
+            transform="translate(160 169) rotate(3 150 120) scale(1.0625732119827738)"
+            filter="url(#shadow236)">
+
+            
+                <rect
+                    x="45"
+                    y="125"
+                    width="220"
+                    height="45"
+                    rx="20"
+                    fill="#374151"/>
+
+                <rect
+                    x="25"
+                    y="75"
+                    width="45"
+                    height="145"
+                    rx="12"
+                    fill="url(#product236)"/>
+
+                <rect
+                    x="230"
+                    y="75"
+                    width="45"
+                    height="145"
+                    rx="12"
+                    fill="url(#product236)"/>
+            
+
+        </g>
+
+        <!-- Product category -->
+        <text
+            x="300"
+            y="505"
+            text-anchor="middle"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="22"
+            font-weight="700"
+            fill="#111827">
+
+            Gym
+
+        </text>
+
+        <!-- Product ID -->
+        <text
+            x="300"
+            y="540"
+            text-anchor="middle"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="15"
+            fill="#6b7280">
+
+            ShopEase Product #236
+
+        </text>
+
+    </svg>
+    

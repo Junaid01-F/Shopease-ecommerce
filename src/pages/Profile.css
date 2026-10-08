@@ -1,0 +1,27 @@
+.profile-container { max-width: 520px; }
+.profile-card { position: relative; background: #fff; border: 1px solid var(--border); border-radius: 24px; overflow: hidden; padding: 0 36px 36px; text-align: center; box-shadow: var(--shadow-md); }
+.profile-cover { height: 110px; margin: 0 -36px; background: linear-gradient(120deg, #4f46e5, #7c3aed 55%, #db2777); }
+.profile-avatar { width: 92px; height: 92px; margin: -46px auto 14px; display: grid; place-items: center; border-radius: 50%; background: #fff; color: var(--primary); border: 5px solid #fff; box-shadow: 0 6px 18px rgba(15,23,42,.15); font-size: 36px; font-weight: 800; position: relative; }
+.profile-avatar::before { content: ""; position: absolute; inset: 0; border-radius: 50%; background: var(--primary-soft); z-index: -1; }
+.profile-card h1 { font-size: 26px; letter-spacing: -.02em; }
+.profile-email { color: var(--muted); margin-bottom: 22px; }
+
+.profile-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 22px; }
+.profile-stats a { padding: 14px; background: #f8fafc; border: 1px solid var(--border); border-radius: 14px; display: flex; flex-direction: column; transition: .15s; }
+.profile-stats a:hover { border-color: var(--primary); background: var(--primary-soft); }
+.profile-stats strong { font-size: 24px; }
+.profile-stats span { color: var(--muted); font-size: 13px; }
+
+.profile-details { border-top: 1px solid #f1f5f9; margin-bottom: 26px; }
+.profile-details div { display: flex; justify-content: space-between; gap: 12px; padding: 14px 0; border-bottom: 1px solid #f1f5f9; text-align: left; }
+.profile-details span { color: var(--muted); font-size: 14px; }
+.profile-details strong { font-size: 14px; word-break: break-all; text-align: right; }
+
+.profile-actions { display: flex; flex-direction: column; gap: 10px; }
+.logout-btn { width: 100%; padding: 13px; border: 1px solid #fecaca; border-radius: 10px; background: #fef2f2; color: var(--danger); font-weight: 700; }
+.logout-btn:hover { background: var(--danger); color: #fff; border-color: var(--danger); }
+
+@media (max-width: 480px) {
+  .profile-card { padding: 0 20px 28px; }
+  .profile-cover { margin: 0 -20px; }
+}

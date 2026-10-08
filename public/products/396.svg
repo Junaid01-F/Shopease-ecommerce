@@ -1,0 +1,144 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="600"
+        height="600"
+        viewBox="0 0 600 600">
+
+        <defs>
+            <linearGradient
+                id="bg396"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="1">
+
+                <stop
+                    offset="0%"
+                    stop-color="#ea580c"
+                    stop-opacity="0.15"/>
+
+                <stop
+                    offset="100%"
+                    stop-color="#b45309"
+                    stop-opacity="0.05"/>
+            </linearGradient>
+
+            <linearGradient
+                id="product396"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="1">
+
+                <stop
+                    offset="0%"
+                    stop-color="#ea580c"/>
+
+                <stop
+                    offset="100%"
+                    stop-color="#b45309"/>
+            </linearGradient>
+
+            <filter
+                id="shadow396"
+                x="-50%"
+                y="-50%"
+                width="200%"
+                height="200%">
+
+                <feDropShadow
+                    dx="0"
+                    dy="18"
+                    stdDeviation="18"
+                    flood-opacity="0.18"/>
+            </filter>
+        </defs>
+
+        <!-- Background -->
+        <rect
+            width="600"
+            height="600"
+            fill="url(#bg396)"/>
+
+        <circle
+            cx="300"
+            cy="300"
+            r="210"
+            fill="#ea580c"
+            opacity="0.04"/>
+
+        <!-- Decorative circles -->
+        <circle
+            cx="60"
+            cy="97"
+            r="36"
+            fill="#ea580c"
+            opacity="0.10"/>
+
+        <circle
+            cx="505"
+            cy="528"
+            r="37"
+            fill="#b45309"
+            opacity="0.10"/>
+
+        <!-- Product -->
+        <g
+            transform="translate(221 154) rotate(0 150 120) scale(0.9534520493897108)"
+            filter="url(#shadow396)">
+
+            
+            <rect
+                x="60"
+                y="90"
+                width="190"
+                height="150"
+                rx="35"
+                fill="url(#product396)"/>
+
+            <rect
+                x="75"
+                y="215"
+                width="25"
+                height="90"
+                fill="#b45309"/>
+
+            <rect
+                x="210"
+                y="215"
+                width="25"
+                height="90"
+                fill="#b45309"/>
+        
+
+        </g>
+
+        <!-- Product category -->
+        <text
+            x="300"
+            y="505"
+            text-anchor="middle"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="22"
+            font-weight="700"
+            fill="#111827">
+
+            Sofa
+
+        </text>
+
+        <!-- Product ID -->
+        <text
+            x="300"
+            y="540"
+            text-anchor="middle"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="15"
+            fill="#6b7280">
+
+            ShopEase Product #396
+
+        </text>
+
+    </svg>
+    

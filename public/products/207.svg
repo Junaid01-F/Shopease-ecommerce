@@ -1,0 +1,137 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="600"
+        height="600"
+        viewBox="0 0 600 600">
+
+        <defs>
+            <linearGradient
+                id="bg207"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="1">
+
+                <stop
+                    offset="0%"
+                    stop-color="#059669"
+                    stop-opacity="0.15"/>
+
+                <stop
+                    offset="100%"
+                    stop-color="#059669"
+                    stop-opacity="0.05"/>
+            </linearGradient>
+
+            <linearGradient
+                id="product207"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="1">
+
+                <stop
+                    offset="0%"
+                    stop-color="#059669"/>
+
+                <stop
+                    offset="100%"
+                    stop-color="#059669"/>
+            </linearGradient>
+
+            <filter
+                id="shadow207"
+                x="-50%"
+                y="-50%"
+                width="200%"
+                height="200%">
+
+                <feDropShadow
+                    dx="0"
+                    dy="18"
+                    stdDeviation="18"
+                    flood-opacity="0.18"/>
+            </filter>
+        </defs>
+
+        <!-- Background -->
+        <rect
+            width="600"
+            height="600"
+            fill="url(#bg207)"/>
+
+        <circle
+            cx="300"
+            cy="300"
+            r="210"
+            fill="#059669"
+            opacity="0.04"/>
+
+        <!-- Decorative circles -->
+        <circle
+            cx="112"
+            cy="60"
+            r="21"
+            fill="#059669"
+            opacity="0.10"/>
+
+        <circle
+            cx="510"
+            cy="496"
+            r="29"
+            fill="#059669"
+            opacity="0.10"/>
+
+        <!-- Product -->
+        <g
+            transform="translate(236 167) rotate(-8 150 120) scale(0.895692049029965)"
+            filter="url(#shadow207)">
+
+            
+                <circle
+                    cx="155"
+                    cy="155"
+                    r="115"
+                    fill="url(#product207)"/>
+
+                <path
+                    d="M155 40 L155 270
+                       M40 155 L270 155
+                       M75 75 L235 235
+                       M235 75 L75 235"
+                    stroke="#ffffff"
+                    stroke-width="8"
+                    opacity="0.65"/>
+            
+
+        </g>
+
+        <!-- Product category -->
+        <text
+            x="300"
+            y="505"
+            text-anchor="middle"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="22"
+            font-weight="700"
+            fill="#111827">
+
+            Basketball
+
+        </text>
+
+        <!-- Product ID -->
+        <text
+            x="300"
+            y="540"
+            text-anchor="middle"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="15"
+            fill="#6b7280">
+
+            ShopEase Product #207
+
+        </text>
+
+    </svg>
+    

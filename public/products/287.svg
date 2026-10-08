@@ -1,0 +1,146 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="600"
+        height="600"
+        viewBox="0 0 600 600">
+
+        <defs>
+            <linearGradient
+                id="bg287"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="1">
+
+                <stop
+                    offset="0%"
+                    stop-color="#16a34a"
+                    stop-opacity="0.15"/>
+
+                <stop
+                    offset="100%"
+                    stop-color="#0284c7"
+                    stop-opacity="0.05"/>
+            </linearGradient>
+
+            <linearGradient
+                id="product287"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="1">
+
+                <stop
+                    offset="0%"
+                    stop-color="#16a34a"/>
+
+                <stop
+                    offset="100%"
+                    stop-color="#0284c7"/>
+            </linearGradient>
+
+            <filter
+                id="shadow287"
+                x="-50%"
+                y="-50%"
+                width="200%"
+                height="200%">
+
+                <feDropShadow
+                    dx="0"
+                    dy="18"
+                    stdDeviation="18"
+                    flood-opacity="0.18"/>
+            </filter>
+        </defs>
+
+        <!-- Background -->
+        <rect
+            width="600"
+            height="600"
+            fill="url(#bg287)"/>
+
+        <circle
+            cx="300"
+            cy="300"
+            r="210"
+            fill="#16a34a"
+            opacity="0.04"/>
+
+        <!-- Decorative circles -->
+        <circle
+            cx="115"
+            cy="78"
+            r="20"
+            fill="#16a34a"
+            opacity="0.10"/>
+
+        <circle
+            cx="488"
+            cy="493"
+            r="34"
+            fill="#0284c7"
+            opacity="0.10"/>
+
+        <!-- Product -->
+        <g
+            transform="translate(165 155) rotate(0 150 120) scale(0.9751221260824645)"
+            filter="url(#shadow287)">
+
+            
+                <rect
+                    x="45"
+                    y="125"
+                    width="220"
+                    height="45"
+                    rx="20"
+                    fill="#374151"/>
+
+                <rect
+                    x="25"
+                    y="75"
+                    width="45"
+                    height="145"
+                    rx="12"
+                    fill="url(#product287)"/>
+
+                <rect
+                    x="230"
+                    y="75"
+                    width="45"
+                    height="145"
+                    rx="12"
+                    fill="url(#product287)"/>
+            
+
+        </g>
+
+        <!-- Product category -->
+        <text
+            x="300"
+            y="505"
+            text-anchor="middle"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="22"
+            font-weight="700"
+            fill="#111827">
+
+            Dumbbell
+
+        </text>
+
+        <!-- Product ID -->
+        <text
+            x="300"
+            y="540"
+            text-anchor="middle"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="15"
+            fill="#6b7280">
+
+            ShopEase Product #287
+
+        </text>
+
+    </svg>
+    

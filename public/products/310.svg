@@ -1,0 +1,145 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="600"
+        height="600"
+        viewBox="0 0 600 600">
+
+        <defs>
+            <linearGradient
+                id="bg310"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="1">
+
+                <stop
+                    offset="0%"
+                    stop-color="#ea580c"
+                    stop-opacity="0.15"/>
+
+                <stop
+                    offset="100%"
+                    stop-color="#ca8a04"
+                    stop-opacity="0.05"/>
+            </linearGradient>
+
+            <linearGradient
+                id="product310"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="1">
+
+                <stop
+                    offset="0%"
+                    stop-color="#ea580c"/>
+
+                <stop
+                    offset="100%"
+                    stop-color="#ca8a04"/>
+            </linearGradient>
+
+            <filter
+                id="shadow310"
+                x="-50%"
+                y="-50%"
+                width="200%"
+                height="200%">
+
+                <feDropShadow
+                    dx="0"
+                    dy="18"
+                    stdDeviation="18"
+                    flood-opacity="0.18"/>
+            </filter>
+        </defs>
+
+        <!-- Background -->
+        <rect
+            width="600"
+            height="600"
+            fill="url(#bg310)"/>
+
+        <circle
+            cx="300"
+            cy="300"
+            r="210"
+            fill="#ea580c"
+            opacity="0.04"/>
+
+        <!-- Decorative circles -->
+        <circle
+            cx="117"
+            cy="95"
+            r="30"
+            fill="#ea580c"
+            opacity="0.10"/>
+
+        <circle
+            cx="530"
+            cy="504"
+            r="55"
+            fill="#ca8a04"
+            opacity="0.10"/>
+
+        <!-- Product -->
+        <g
+            transform="translate(170 163) rotate(0 150 120) scale(1.132782874826142)"
+            filter="url(#shadow310)">
+
+            
+        <rect
+            x="50"
+            y="55"
+            width="210"
+            height="220"
+            rx="25"
+            fill="url(#product310)"/>
+
+        <rect
+            x="75"
+            y="80"
+            width="160"
+            height="120"
+            rx="12"
+            fill="#ffffff"
+            opacity="0.45"/>
+
+        <circle
+            cx="155"
+            cy="235"
+            r="18"
+            fill="#ca8a04"/>
+    
+
+        </g>
+
+        <!-- Product category -->
+        <text
+            x="300"
+            y="505"
+            text-anchor="middle"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="22"
+            font-weight="700"
+            fill="#111827">
+
+            Pillow
+
+        </text>
+
+        <!-- Product ID -->
+        <text
+            x="300"
+            y="540"
+            text-anchor="middle"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="15"
+            fill="#6b7280">
+
+            ShopEase Product #310
+
+        </text>
+
+    </svg>
+    

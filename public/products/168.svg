@@ -1,0 +1,137 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="600"
+        height="600"
+        viewBox="0 0 600 600">
+
+        <defs>
+            <linearGradient
+                id="bg168"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="1">
+
+                <stop
+                    offset="0%"
+                    stop-color="#db2777"
+                    stop-opacity="0.15"/>
+
+                <stop
+                    offset="100%"
+                    stop-color="#e11d48"
+                    stop-opacity="0.05"/>
+            </linearGradient>
+
+            <linearGradient
+                id="product168"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="1">
+
+                <stop
+                    offset="0%"
+                    stop-color="#db2777"/>
+
+                <stop
+                    offset="100%"
+                    stop-color="#e11d48"/>
+            </linearGradient>
+
+            <filter
+                id="shadow168"
+                x="-50%"
+                y="-50%"
+                width="200%"
+                height="200%">
+
+                <feDropShadow
+                    dx="0"
+                    dy="18"
+                    stdDeviation="18"
+                    flood-opacity="0.18"/>
+            </filter>
+        </defs>
+
+        <!-- Background -->
+        <rect
+            width="600"
+            height="600"
+            fill="url(#bg168)"/>
+
+        <circle
+            cx="300"
+            cy="300"
+            r="210"
+            fill="#db2777"
+            opacity="0.04"/>
+
+        <!-- Decorative circles -->
+        <circle
+            cx="75"
+            cy="119"
+            r="36"
+            fill="#db2777"
+            opacity="0.10"/>
+
+        <circle
+            cx="533"
+            cy="527"
+            r="31"
+            fill="#e11d48"
+            opacity="0.10"/>
+
+        <!-- Product -->
+        <g
+            transform="translate(173 159) rotate(4 150 120) scale(1.0097409990207262)"
+            filter="url(#shadow168)">
+
+            
+                <path
+                    d="M60 110
+                       Q155 35 250 110
+                       L265 265
+                       L45 265 Z"
+                    fill="url(#product168)"/>
+
+                <path
+                    d="M95 115
+                       Q155 25 215 115"
+                    fill="none"
+                    stroke="#e11d48"
+                    stroke-width="25"
+                    stroke-linecap="round"/>
+            
+
+        </g>
+
+        <!-- Product category -->
+        <text
+            x="300"
+            y="505"
+            text-anchor="middle"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="22"
+            font-weight="700"
+            fill="#111827">
+
+            Backpack
+
+        </text>
+
+        <!-- Product ID -->
+        <text
+            x="300"
+            y="540"
+            text-anchor="middle"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="15"
+            fill="#6b7280">
+
+            ShopEase Product #168
+
+        </text>
+
+    </svg>
+    
